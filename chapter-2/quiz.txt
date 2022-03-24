@@ -1,0 +1,98 @@
+Chapter 2: User-Facing Backend
+----------------------------------------------------------------------------------------------------------------
+
+Q1. Which of the following aggregation stages have equivalent cursor methods?
+
+ANS:$sort
+    $limit
+    $skip
+----------------------------------------------------------------------------------------------------------------
+
+
+Ticket: Paging
+
+5a9824d057adff467fb1f526
+----------------------------------------------------------------------------------------------------------------
+
+Ticket: Faceted Search
+
+5aa7d3948adcc3fb770f06fb
+
+----------------------------------------------------------------------------------------------------------------
+Q2.Which of the following are valid methods to insert a new document into a collection using the Node.js driver?
+
+ANS:
+
+1. updateOne with upsert: true specified in the options.
+2. insertMany
+3. insertOne
+
+----------------------------------------------------------------------------------------------------------------
+Ticket: User Management
+
+5a8d8ee2f9588ca2701894be
+
+----------------------------------------------------------------------------------------------------------------
+Q3.Which of the following Write Concerns are valid in a 3-node replica set?
+
+ANS:
+w: 0
+w: 1
+w: majority
+----------------------------------------------------------------------------------------------------------------
+
+Ticket: Durable Writes
+
+w: 2
+w: "majority"
+
+----------------------------------------------------------------------------------------------------------------
+Q4.Which of the following can be passed to the updateOne() and updateMany() commands?
+
+ANS:
+A query predicate
+An update operation
+An upsert flag
+----------------------------------------------------------------------------------------------------------------
+Ticket: User Preferences
+
+5aabe31503ac76bc4f73e267
+
+----------------------------------------------------------------------------------------------------------------
+Q5.Why did we use a let expression with expressive $lookup, when joining the comments and the movies collection?
+
+ANS:
+To use fields from the movies documents in the pipeline.
+
+----------------------------------------------------------------------------------------------------------------
+
+Ticket: Get Comments
+
+5ab5094fb526e43b570e4633
+
+----------------------------------------------------------------------------------------------------------------
+Ticket: Create/Update Comments
+
+5aba8d5113910c25d7058f8f
+
+----------------------------------------------------------------------------------------------------------------
+
+Q6.Which of the following is true regarding deletes in the Node.js driver?
+
+ANS:
+deleteMany deletes multiple matching documents in one operation.
+deleteOne deletes the first matching document in $natural order.
+
+----------------------------------------------------------------------------------------------------------------
+
+Ticket: Delete Comments
+
+5ac25c280a80ed6e67e1cecb
+
+
+
+
+----------------------------------------------------------------------------------------------------------------
+
+
+

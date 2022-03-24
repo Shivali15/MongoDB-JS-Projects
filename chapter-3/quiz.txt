@@ -1,0 +1,32 @@
+Chapter 3: Admin Backend
+
+Read Concerns
+--------------------------------------------------------------------------------------------------------------------
+Q1. Which of the following Read Concerns are valid in a 3-node replica set?
+
+ANS:
+"local"
+"majority"
+
+--------------------------------------------------------------------------------------------------------------------
+
+Ticket: User Report
+
+5accad3272455e5db79e4dad
+
+--------------------------------------------------------------------------------------------------------------------
+
+Q2.Which of the following is true about bulk writes?
+
+ANS:
+By default, bulk writes are ordered.
+Bulk writes decrease the effect of latency on overall operation time.
+
+--------------------------------------------------------------------------------------------------------------------
+
+Ticket: Migration
+
+5ad9f6a64fec134d116fb06f
+
+
+--------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,8 @@
+Chapter 0: Introduction and Setup
+--------------------------------------------------------------------------------------------------
+Q1.Given the following MongoDB URI:
+mongodb+srv://brigitte:bardot@xyz-1234.srv.net/admin
+
+ANS:The password used to authenticate is bardot
+
+----------------------------------------------------------------------------------------------------------------
